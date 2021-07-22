@@ -2,7 +2,7 @@ import pyautogui
 from time import sleep
 
 
-def spam(msg,maxMsg):
+def spam(msg, maxMsg, z):
     # 0TODO set x,y where your whatsapp web msg box is
     # or the input is not foucused and your jus spaming stuff to the prompt
 
@@ -14,9 +14,9 @@ def spam(msg,maxMsg):
         pyautogui.press("enter")
         print(f"count: {i}" )
         # if ya want a delay
-        sleep(0)
+        sleep(z)
 
 msg = input("enter yo msg:")
 n = int(input("Enter how many times:"))
-
-spam(msg, n)
+z = int(input('Enter time for sleep'))
+spam(msg, n, z)
