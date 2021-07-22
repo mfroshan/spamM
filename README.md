@@ -1,0 +1,2 @@
+# spamM
+To Spam message
