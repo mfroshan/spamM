@@ -1,2 +1,2 @@
 # spamM
-To Spam message
+To Spam message to any one 
